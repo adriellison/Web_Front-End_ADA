@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://images.pling.com/img/00/00/61/45/57/1580386/17e70bf481c133b39401bbc3876053c89238a12c419782a7275634b40b0cdf410017.jpg);
+    background-size: cover;
+}
+h1 {
+    color: aqua;
+    font-family: fantasy;
+}
+p {
+    color: antiquewhite;
+}
+.google-container {
+    display: flex;
+    width: 100%;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+
+.google {
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    align-items: start;
+    justify-content: start;
+}
+
+.google img {
+    width: 30px;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+
+.google input {
+    border-radius: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+}
