@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.8rem;
+	color: cadetblue;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+h2 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+table tr:first-child {
+	background-color: rgb(42, 100, 147);
+	color: white;
+}
+
+table tr:nth-child(2n + 1) {
+	background-color: #ccc;
+}
+
+table {
+	font-size: 2.4rem;
+	border-collapse: collapse;
+}
+
+.bg {
+    height: 500px;
+    width: auto;
+    background-image: url(https://images.unsplash.com/photo-1685009498451-a32a731b4150?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul, ol {
+	padding-left: 2.4rem;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+.box {
+	height: 100px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2rem;
+}
